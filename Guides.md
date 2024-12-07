@@ -3,7 +3,7 @@
 ### Spawn Command:
 - #### Permission: citybuild.spawn
 - #### To Change the spawn Position, set the Position in the config.yml (src/main/resources/config.yml)
-- #### To set the Config, you need to copie the config settings in src/main/java/yourcountry.yourname.pluginname/PluginName
+- #### To set the Config, you need to copie the config settings in src/main/java/de.pixeltyles.cb1/PluginName
 - #### Usage: /spawn
 - #### Description: Teleport you to the Spawn.
 
