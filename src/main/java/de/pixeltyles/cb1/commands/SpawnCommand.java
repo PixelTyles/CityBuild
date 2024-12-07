@@ -20,6 +20,10 @@ public class SpawnCommand implements CommandExecutor {
             Player player = (Player) sender;
 
             Location spawn = new Location(Bukkit.getWorld(config.getString("spawn.world")), config.getInt("spawn.x"), config.getInt("spawn.y"), config.getInt("spawn.z"));
+            spawn.setYaw(config.getInt("spawn.yaw"));
+            spawn.setPitch(config.getInt("spawn.pitch"));
+
+
             player.sendMessage("§8» §3Spawn §8| §7You teleported to the spawn.");
 
 
