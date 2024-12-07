@@ -5,7 +5,18 @@ api-version: '1.21'
 
 commands:
   fly:
-    description: "You can disable/enable your fly"
+    description: "You can disable/enable your fly."
     usage: /fly
     permission: citybuild.fly
+    permission-message: "§8» §6Server §8| §7You have no permission."
+  craft:
+    description: "Open the workbench."
+    usage: /craft
+    permission: citybuild.craft
+    permission-message: "§8» §6Server §8| §7You have no permission."
+  ec:
+    description: "Open your Enderchest."
+    aliases: enderchest
+    usage: /ec
+    permission: citybuild.ec
     permission-message: "§8» §6Server §8| §7You have no permission."
