@@ -1,0 +1,4 @@
+name: Cb1.0
+version: '${project.version}'
+main: de.pixeltyles.cb1.Cb1
+api-version: '1.21'
