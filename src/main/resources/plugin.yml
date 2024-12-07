@@ -20,3 +20,13 @@ commands:
     usage: /ec
     permission: citybuild.ec
     permission-message: "§8» §6Server §8| §7You have no permission."
+  suicide:
+    description: "Kill yourself."
+    usage: /suicide
+    permission: citybuild.suicide
+    permission-message: "§8» §6Server §8| §7You have no permission."
+  spawn:
+    description: "Teleport to the Spawn."
+    usage: /spawn
+    permission: citybuild.spawn
+    permission-message: "§8» §6Server §8| §7You have no permission."

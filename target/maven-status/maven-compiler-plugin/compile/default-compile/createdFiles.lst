@@ -1,4 +1,6 @@
-de\pixeltyles\cb1\commands\FlyCommand.class
 de\pixeltyles\cb1\commands\EcCommand.class
+de\pixeltyles\cb1\commands\SuicideCommand.class
 de\pixeltyles\cb1\commands\CraftCommand.class
 de\pixeltyles\cb1\Cb1.class
+de\pixeltyles\cb1\commands\FlyCommand.class
+de\pixeltyles\cb1\commands\SpawnCommand.class
