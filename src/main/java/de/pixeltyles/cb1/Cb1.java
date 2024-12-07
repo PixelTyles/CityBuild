@@ -1,12 +1,13 @@
 package de.pixeltyles.cb1;
 
+import de.pixeltyles.cb1.commands.FlyCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Cb1 extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getCommand("fly").setExecutor(new FlyCommand());
 
     }
 

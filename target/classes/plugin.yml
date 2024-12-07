@@ -1,4 +1,11 @@
-name: Cb1.0
+name: Cb
 version: '1.0'
 main: de.pixeltyles.cb1.Cb1
 api-version: '1.21'
+
+commands:
+  fly:
+    description: "You can disable/enable your fly"
+    usage: /fly
+    permission: citybuild.fly
+    permission-message: "§8» §6Server §8| §7You have no permission."
