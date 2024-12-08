@@ -4,6 +4,7 @@ import de.pixeltyles.citybuild.commands.*;
 import de.pixeltyles.citybuild.listener.ConnectionListener;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -28,8 +29,10 @@ public final class CityBuild extends JavaPlugin {
 
     }
 
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
+    public static String getWelcomeMessage(Player player) {
+        String message = config.getString("connection.joinMessage");
+        return message.replace("{player}", player.getName());
     }
+
 }
+

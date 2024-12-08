@@ -2,6 +2,7 @@ package de.pixeltyles.citybuild.listener;
 
 import de.pixeltyles.citybuild.CityBuild;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
@@ -13,9 +14,10 @@ public class ConnectionListener implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent event) {
-        FileConfiguration config = CityBuild.config;
+        Player player = event.getPlayer();
+        String welcomeMessage = CityBuild.getWelcomeMessage(player);
 
-        event.setJoinMessage(config.getString("connection.joinMessage"));
+        event.setJoinMessage(welcomeMessage);
     }
 
     @EventHandler

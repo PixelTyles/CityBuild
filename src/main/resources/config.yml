@@ -6,5 +6,5 @@ spawn:
   yaw: 0
   world: world
 connection:
-  joinMessage: ""
-  quitMessage: ""
+  joinMessage: "" # You can get the player with: {player}
+  quitMessage: "" # You can get the player with: {player}

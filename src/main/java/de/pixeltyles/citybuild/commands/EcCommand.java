@@ -15,6 +15,6 @@ public class EcCommand implements CommandExecutor {
         } else {
             sender.sendMessage("You have to be a player!");
         }
-        return false;
+        return true;
     }
 }
