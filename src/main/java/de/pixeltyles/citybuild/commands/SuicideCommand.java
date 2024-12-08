@@ -1,4 +1,4 @@
-package de.pixeltyles.cb1.commands;
+package de.pixeltyles.citybuild.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

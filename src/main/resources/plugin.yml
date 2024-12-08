@@ -1,6 +1,6 @@
-name: Cb
+name: CityBuild
 version: '${project.version}'
-main: de.pixeltyles.cb1.Cb1
+main: de.pixeltyles.citybuild.CityBuild
 api-version: '1.21'
 
 commands:

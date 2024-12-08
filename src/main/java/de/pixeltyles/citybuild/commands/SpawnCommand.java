@@ -1,6 +1,6 @@
-package de.pixeltyles.cb1.commands;
+package de.pixeltyles.citybuild.commands;
 
-import de.pixeltyles.cb1.Cb1;
+import de.pixeltyles.citybuild.CityBuild;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
@@ -15,7 +15,7 @@ public class SpawnCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
 
-            FileConfiguration config = Cb1.config;
+            FileConfiguration config = CityBuild.config;
 
             Player player = (Player) sender;
 

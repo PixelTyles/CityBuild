@@ -1,6 +1,7 @@
-de\pixeltyles\cb1\commands\EcCommand.class
-de\pixeltyles\cb1\commands\SuicideCommand.class
-de\pixeltyles\cb1\commands\CraftCommand.class
-de\pixeltyles\cb1\Cb1.class
-de\pixeltyles\cb1\commands\FlyCommand.class
-de\pixeltyles\cb1\commands\SpawnCommand.class
+de\pixeltyles\citybuild\commands\EcCommand.class
+de\pixeltyles\citybuild\commands\SuicideCommand.class
+de\pixeltyles\citybuild\CityBuild.class
+de\pixeltyles\citybuild\commands\SpawnCommand.class
+de\pixeltyles\citybuild\commands\CraftCommand.class
+de\pixeltyles\citybuild\commands\FlyCommand.class
+de\pixeltyles\citybuild\listener\ConnectionListener.class
